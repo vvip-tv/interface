@@ -1,11 +1,11 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/cc.jar",
+    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/cc.jar",
     "lives": [
         {
             "name": "live",
             "type": 0,
-            "url": "https://gitcode.net/xiashui1994/test/-/raw/main/tvlive.txt",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/tvlive.txt",
             "playerType": 1,
             "ua": "okhttp/3.15",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0914",
+            "name": "⌛更新｜0926",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -31,7 +31,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar",
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
             "ext": {
                 "danmu": true
             }
@@ -44,7 +44,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar",
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
             "ext": {
                 "danmu": true
             }
@@ -60,7 +60,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "文才弹幕",
@@ -73,7 +73,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "三六零弹幕",
@@ -86,7 +86,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "小苹果弹幕",
@@ -99,7 +99,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "热播",
@@ -121,8 +121,8 @@
             "quickSearch": 1,
             "changeable": 1,
             "playerType": "1",
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/荐片.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/荐片.js"
         },
         {
             "key": "苹果",
@@ -151,7 +151,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "农民影视",
@@ -161,7 +161,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "看客影视",
@@ -171,7 +171,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "FreeOK",
@@ -181,7 +181,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "南瓜",
@@ -202,7 +202,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "新感觉",
@@ -213,7 +213,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://43.248.100.147:9891/api.php/app/",
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "追剧猫",
@@ -224,7 +224,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://jingxiang.lingutv.cn/api.php/app/",
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "酷影视",
@@ -235,7 +235,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.tvkuys.xyz/api.php/app/",
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "南瓜影视",
@@ -245,7 +245,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "天天影视",
@@ -255,7 +255,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "热播影视",
@@ -265,7 +265,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "追剧影视",
@@ -276,7 +276,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://z.kzjtv.com/",
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "大米星球",
@@ -286,7 +286,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "忍者影视",
@@ -297,7 +297,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://rzys.xyz/",
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "星芽短剧",
@@ -307,7 +307,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "在线短剧",
@@ -316,70 +316,70 @@
             "api": "csp_Duanju",
             "searchable": 1,
             "changeable": 0,
-            "jar": "https://gitcode.net/xiashui1994/test/-/raw/main/jar/spider.jar"
+            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
         },
         {
             "key": "天堂短剧",
             "name": "🚀天堂｜短剧[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/天堂短剧.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/天堂短剧.js"
         },
         {
             "key": "drpy_js_南瓜影视",
             "name": "🚁南瓜影视[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/南瓜影视.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/南瓜影视.js"
         },
         {
             "key": "drpy_js_360影视",
             "name": "🚁360[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/360影视.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/360影视.js"
         },
         {
             "key": "drpy_js_奇珍异兽",
             "name": "🚁爱奇艺[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/奇珍异兽.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/奇珍异兽.js"
         },
         {
             "key": "drpy_js_优酷",
             "name": "🚁优酷[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/优酷.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/优酷.js"
         },
         {
             "key": "drpy_js_腾云驾雾",
             "name": "🚁腾讯[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/腾云驾雾.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/腾云驾雾.js"
         },
         {
             "key": "drpy_js_百忙无果",
             "name": "🚁芒果[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/百忙无果.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/百忙无果.js"
         },
         {
             "key": "drpy_js_菜狗",
             "name": "🚁搜狗[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/菜狗.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/菜狗.js"
         },
         {
             "key": "drpy_js_骚火电影",
             "name": "🚁骚火电影[js]",
             "type": 3,
-            "api": "https://gitcode.net/xiashui1994/test/-/raw/main/lib/drpy2.min.js",
-            "ext": "https://gitcode.net/xiashui1994/test/-/raw/main/js/骚火电影.js"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/骚火电影.js"
         }
     ],
     "parses": [
