@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/cc.jar",
+    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
     "lives": [
         {
             "name": "live",
@@ -15,9 +15,9 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜1021",
+            "name": "⌛更新｜1119",
             "type": 3,
-            "api": "csp_DouDou",
+            "api": "csp_Douban",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
@@ -31,7 +31,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
             "ext": {
                 "danmu": true
             }
@@ -44,7 +43,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
             "ext": {
                 "danmu": true
             }
@@ -59,8 +57,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            }
         },
         {
             "key": "文才弹幕",
@@ -72,8 +69,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            }
         },
         {
             "key": "三六零弹幕",
@@ -85,8 +81,7 @@
             "changeable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            }
         },
         {
             "key": "小苹果弹幕",
@@ -98,20 +93,16 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            }
         },
         {
             "key": "热播",
             "name": "🚀热播",
             "type": 3,
-            "api": "csp_AppTT",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_AppRB",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+            "changeable": 1
         },
         {
             "key": "drpy_js_荐片",
@@ -128,7 +119,7 @@
             "key": "苹果",
             "name": "🚁苹果",
             "type": 3,
-            "api": "csp_LiteApple",
+            "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -137,8 +128,7 @@
             "key": "csp_DiDuan",
             "name": "🚀低端影视[jar]",
             "type": 3,
-            "api": "csp_Ddrk",
-            "playerType": "2",
+            "api": "csp_Ddys",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -150,18 +140,16 @@
             "api": "csp_Czzy",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "农民影视",
             "name": "🚀农民影视[jar]",
             "type": 3,
-            "api": "csp_Nongm",
+            "api": "csp_Nmys",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "看客影视",
@@ -171,7 +159,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "ext": "https://www.kmeiju.com"
         },
         {
             "key": "FreeOK",
@@ -180,16 +168,13 @@
             "api": "csp_FreeOK",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "南瓜",
             "name": "🚀南瓜",
             "type": 3,
-            "api": "csp_NanGua",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_Nangua",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -201,30 +186,7 @@
             "api": "csp_HanXiaoQuan",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
-        },
-        {
-            "key": "新感觉",
-            "name": "🚀新感觉｜APP[jar]",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://43.248.100.147:9891/api.php/app/",
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
-        },
-        {
-            "key": "追剧猫",
-            "name": "🚀追剧猫｜APP[jar]",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://jingxiang.lingutv.cn/api.php/app/",
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "酷影视",
@@ -234,8 +196,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.tvkuys.xyz/api.php/app/",
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         {
             "key": "南瓜影视",
@@ -244,8 +205,7 @@
             "api": "csp_Nangua",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "天天影视",
@@ -254,8 +214,7 @@
             "api": "csp_AppTT",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "热播影视",
@@ -264,8 +223,7 @@
             "api": "csp_AppRB",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "追剧影视",
@@ -274,19 +232,14 @@
             "api": "csp_AppZJ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://z.kzjtv.com/",
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "大米星球",
-            "name": "🚀大米｜APP[jar]",
+            "name": "🚀大米｜APP[js]",
             "type": 3,
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/APPV2.js?type=url&params=https://damifan.wiki"
         },
         {
             "key": "忍者影视",
@@ -295,9 +248,7 @@
             "api": "csp_AppRZ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://rzys.xyz/",
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 1
         },
         {
             "key": "星芽短剧",
@@ -306,8 +257,7 @@
             "api": "csp_AppXY",
             "searchable": 1,
             "quickSearch": 0,
-            "filterable": 0,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "filterable": 0
         },
         {
             "key": "在线短剧",
@@ -315,8 +265,7 @@
             "type": 3,
             "api": "csp_Duanju",
             "searchable": 1,
-            "changeable": 0,
-            "jar": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar"
+            "changeable": 0
         },
         {
             "key": "天堂短剧",
@@ -389,134 +338,66 @@
             "url": "Demo"
         },
         {
-            "name": "XGJ专线",
-            "url": "http://43.248.100.147:6068/bba/781xgjjson.php?url=",
-            "flag": [
-                "BBA"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
+            "name": "推荐",
+            "type": 1,
+            "url": "https://jxjson.icu/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
         },
         {
-            "name": "XMY专线",
-            "url": "http://121.62.61.51:6888/api/?key=LHypix08ov3mx0Tyd7&url=",
-            "flag": [
-                "NBY"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "LX专线",
-            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
-            "flag": [
-                "LXTX"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "4K专线",
-            "url": "https://jf.hanliu8.cn/api/?key=qEDfo9v5Uk48DVmu6W&url=",
-            "flag": [
-                "4kvip"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "MX专线",
-            "url": "https://jf.hanliu8.cn/api/?key=qEDfo9v5Uk48DVmu6W&url=",
-            "flag": [
-                "m78"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "XGJ专线",
-            "url": "http://43.248.100.147:6068/KEY/70xgjgj.php?url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "LL专线",
-            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "HH专线",
-            "url": "https://api.huohua.vip/api/?key=LqSFybBQvYzN52Tneg&url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
-        },
-        {
-            "name": "XGJ聚合",
-            "url": "http://43.248.100.147:6068//KEY/XGJ/root/key/44jxzy.php?url=",
-            "flag": [
-                "youku",
-                "qq",
-                "qiyi",
-                "bilibili",
-                "mgtv",
-                "pptv",
-                "xigua",
-                "NBY",
-                "ETH-",
-                "mytv",
-                "nmys",
-                "BBA",
-                "4kvip",
-                "m78"
-            ],
-            "header": {
-                "User-Agent": "Dalvik/2.1.0"
-            },
-            "type": "1"
+            "name": "臻享",
+            "type": "1",
+            "url": "http://43.248.100.147:6068/KEY/XGJ/root/key/70.php?url=",
+            "ext": {
+                "flag": [
+                    "youku",
+                    "qq",
+                    "qiyi",
+                    "bilibili",
+                    "mgtv",
+                    "pptv",
+                    "xigua",
+                    "NBY",
+                    "ETH-",
+                    "BBA",
+                    "TX",
+                    "MXTV",
+                    "mytv",
+                    "nmys",
+                    "yhdm",
+                    "BNNB",
+                    "letu",
+                    "DJWB",
+                    "DJWX",
+                    "DJWT",
+                    "duanju"
+                ],
+                "header": {
+                    "User-Agent": "Dalvik/2.1.0"
+                }
+            }
         },
         {
             "name": "线路1",
