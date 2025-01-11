@@ -6,10 +6,10 @@
             "name": "live",
             "type": 0,
             "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/tvlive.txt",
-            "playerType": 1,
-            "ua": "okhttp/3.15",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "playerType": 2,
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.cn/tv/{name}.png",
+            "timeout": 10
         }
     ],
     "sites": [
@@ -253,10 +253,13 @@
             "key": "天天影视",
             "name": "🚀天天｜APP[jar]",
             "type": 3,
-            "api": "csp_AppTT",
+            "api": "csp_TianTian",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": {
+                "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
+            }
         },
         {
             "key": "洽洽影视",
