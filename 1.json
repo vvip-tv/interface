@@ -7,8 +7,8 @@
             "type": 0,
             "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/tvlive.txt",
             "playerType": 2,
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "logo": "https://live.fanmingming.cn/tv/{name}.png",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
             "timeout": 10
         }
     ],
