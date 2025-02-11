@@ -5,7 +5,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/iptv-api/master/output/result.m3u",
             "playerType": 2,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
