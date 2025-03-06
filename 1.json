@@ -227,8 +227,8 @@
             "ext": "http://kkwk123.top/api.php/app/"
         },
         {
-            "key": "🚀玉米[jar]",
-            "name": "玉米｜APP",
+            "key": "玉米",
+            "name": "🚀玉米｜APP[jar]",
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
@@ -340,6 +340,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
                 "json": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/哔哩合集.json"
             },
             "timeout": 10
