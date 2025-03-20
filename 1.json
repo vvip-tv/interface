@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0306",
+            "name": "⌛更新｜0320",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -206,14 +206,6 @@
             "api": "csp_qiao2",
             "playerType": 2,
             "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
-        },
-        {
-            "key": "二三",
-            "name": "🚀二三｜App[jar]",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
         },
         {
             "key": "快看",
@@ -550,54 +542,74 @@
             }
         },
         {
-            "name": "线路1",
+            "name": "线路一",
             "type": 0,
-            "url": "https://www.8090g.cn/?url="
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "线路2",
+            "name": "线路二",
             "type": 0,
-            "url": "https://jx.m3u8.tv/jiexi/?url="
+            "url": "https://jx.77flv.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "线路3",
+            "name": "线路三",
             "type": 0,
-            "url": "https://www.ckplayer.vip/jiexi/?url="
+            "url": "https://jx.hls.one/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "线路4",
+            "name": "线路四",
             "type": 0,
-            "url": "https://yparse.ik9.cc/index.php?url="
+            "url": "http://jiexi44.qmbo.cn/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "线路5",
+            "name": "线路五",
             "type": 0,
-            "url": "https://bd.jx.cn/?url="
+            "url": "https://jx.zui.cm/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "线路6",
+            "name": "线路六",
             "type": 0,
-            "url": "https://jx.yparse.com/index.php?url="
+            "url": "https://py.987654321.icu/.%60/playm3u8.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
-            "name": "线路7",
+            "name": "线路七",
             "type": 0,
-            "url": "https://jx.hls.one/?url="
-        },
-        {
-            "name": "线路8",
-            "type": 0,
-            "url": "https://pl.a6club.com/player/analysis.php?v="
-        },
-        {
-            "name": "线路9",
-            "type": 0,
-            "url": "https://jx.2s0.cn/player/?url="
-        },
-        {
-            "name": "线路10",
-            "type": 0,
-            "url": "https://jx.nnxv.cn/tv.php?url="
+            "url": "https://yemu.xyz/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         }
     ],
     "flags": [
