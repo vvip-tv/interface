@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0508",
+            "name": "⌛更新｜0516",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -95,6 +95,20 @@
                 "dataIv": "2015692015692015",
                 "deviceId": "",
                 "version": "300"
+            }
+        },
+        {
+            "key": "彼岸",
+            "name": "🚁彼岸｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://172.247.44.217:30012",
+                "dataKey": "JLa1oRdL6+eK7@M)",
+                "dataIv": "JLa1oRdL6+eK7@M)",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
