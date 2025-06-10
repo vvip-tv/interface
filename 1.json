@@ -5,7 +5,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/iptv-api/master/output/result.m3u",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/iptv-api/master/output/user_result.m3u",
             "playerType": 2,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0528",
+            "name": "⌛更新｜0610",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -59,6 +59,118 @@
             }
         },
         {
+            "key": "咖啡",
+            "name": "🚁咖啡｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "http://160.202.243.62:2566",
+                "dataKey": "qwertyuiopqwerty",
+                "dataIv": "qwertyuiopqwerty",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "晓晓",
+            "name": "🚁晓晓｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://ys.ewo.asia",
+                "dataKey": "Z0qTnwyLAJCtuIkI",
+                "dataIv": "Z0qTnwyLAJCtuIkI",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "瓜萌",
+            "name": "🚁瓜萌｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.guahd.com",
+                "dataKey": "f2A7D4B9E8C16531",
+                "dataIv": "f2A7D4B9E8C16531",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "忍者",
+            "name": "🚁忍者｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://mfxs123.sbs",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "彼岸",
+            "name": "🚁彼岸｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://mfsp33.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+                "version": "315"
+            }
+        },
+        {
+            "key": "米兔",
+            "name": "🚁米兔｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://v.tkbot.fun",
+                "dataKey": "d032c12876bc6848",
+                "dataIv": "d032c12876bc6848",
+                "deviceId": "",
+                "version": "200"
+            }
+        },
+        {
+            "key": "诺雪",
+            "name": "🚁诺雪｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.rx4k.top",
+                "dataKey": "ZX10ysTYZWtIJCTU",
+                "dataIv": "ZX10ysTYZWtIJCTU",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "梦缘",
+            "name": "🚁梦缘｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://150.138.84.88:44444",
+                "dataKey": "fdnwxwnkyylwdyqh",
+                "dataIv": "fdnwxwnkyylwdyqh",
+                "deviceId": "29ac7568b4dc23ca9a40b6ca5b7cc6f68",
+                "version": "520"
+            }
+        },
+        {
             "key": "再看",
             "name": "🚁再看｜APP[jar]",
             "type": 3,
@@ -84,20 +196,6 @@
                 "dataIv": "Hui6595253......",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "集多",
-            "name": "🚁集多｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://220.231.146.94:6261",
-                "dataKey": "hL7xN4P9rS2vK5Mq",
-                "dataIv": "hL7xN4P9rS2vK5Mq",
-                "deviceId": "",
-                "version": "200"
             }
         },
         {
@@ -297,32 +395,6 @@
             }
         },
         {
-            "key": "永夜",
-            "name": "🚁永夜｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://cms.neyym.cn",
-                "dataKey": "66247d82fcfaeda9",
-                "dataIv": "70691065ee3c4c54",
-                "jxurl": "http://app.neyym.cn"
-            }
-        },
-        {
-            "key": "二三",
-            "name": "🚁二三｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://cs4.123ysw.com",
-                "dataKey": "d3238930e3ae0724",
-                "dataIv": "d3238930e3ae0724",
-                "jxurl": "https://123ysw.com"
-            }
-        },
-        {
             "key": "csp_DiDuan",
             "name": "🚀低端影视[jar]",
             "type": 3,
@@ -330,15 +402,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "来看影视",
-            "name": "🚀来看｜影视[jar]",
-            "type": 3,
-            "api": "csp_Lkdy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "移动",
