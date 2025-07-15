@@ -1,11 +1,11 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
+    "spider": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar",
     "lives": [
         {
             "name": "live",
             "type": 0,
-            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/iptv-api/master/output/user_result.m3u",
+            "url": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/iptv-api/master/output/user_result.m3u",
             "playerType": 2,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -421,7 +421,7 @@
             "filterable": 1,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/哔哩合集.json"
+                "json": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/哔哩合集.json"
             }
         },
         {
@@ -434,7 +434,7 @@
             "filterable": 1,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/少儿教育.json"
+                "json": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/少儿教育.json"
             }
         },
         {
@@ -447,7 +447,7 @@
             "filterable": 1,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
-                "json": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/小学课堂.json"
+                "json": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/小学课堂.json"
             }
         },
         {
@@ -458,7 +458,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/XYQHiker/短剧屋.json"
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/XYQHiker/短剧屋.json"
         },
         {
             "key": "星芽短剧",
@@ -477,49 +477,49 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/XBPQ/海纳影视.json"
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/XBPQ/海纳影视.json"
         },
         {
             "key": "drpy_js_360影视",
             "name": "🚁360[js]",
             "type": 3,
-            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/360影视.js"
+            "api": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/js/360影视.js"
         },
         {
             "key": "drpy_js_奇珍异兽",
             "name": "🚁爱奇艺[js]",
             "type": 3,
-            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/奇珍异兽.js"
+            "api": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/js/奇珍异兽.js"
         },
         {
             "key": "drpy_js_优酷",
             "name": "🚁优酷[js]",
             "type": 3,
-            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/优酷.js"
+            "api": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/js/优酷.js"
         },
         {
             "key": "drpy_js_腾云驾雾",
             "name": "🚁腾讯[js]",
             "type": 3,
-            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/腾云驾雾.js"
+            "api": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/js/腾云驾雾.js"
         },
         {
             "key": "drpy_js_百忙无果",
             "name": "🚁芒果[js]",
             "type": 3,
-            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/百忙无果.js"
+            "api": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/js/百忙无果.js"
         },
         {
             "key": "drpy_js_菜狗",
             "name": "🚁搜狗[js]",
             "type": 3,
-            "api": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://github.ednovas.xyz/https://raw.githubusercontent.com/vvip-tv/interface/main/js/菜狗.js"
+            "api": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://gh.xxooo.cf/https://raw.githubusercontent.com/vvip-tv/interface/main/js/菜狗.js"
         }
     ],
     "parses": [
