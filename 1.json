@@ -332,6 +332,78 @@
             "quickSearch": 1
         },
         {
+            "key": "甜圈短剧",
+            "name": "🚀甜圈｜短剧[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/甜圈短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "偷乐短剧",
+            "name": "🚀偷乐｜短剧[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/偷乐短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "爱看短剧",
+            "name": "🚀爱看｜短剧[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/爱看短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "金牌影视",
+            "name": "🚀金牌｜影视[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            }
+        },
+        {
+            "key": "猎手影视",
+            "name": "🚀猎手｜影视[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/猎手影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "零度影视",
+            "name": "🚀零度｜影视[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/零度影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "追星影视",
+            "name": "🚀追星｜影视[jar]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/追星影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "哔哩合集",
             "name": "🚀哔哩合集[jar]",
             "type": 3,
