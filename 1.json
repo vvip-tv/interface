@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0918",
+            "name": "⌛更新｜0908",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
