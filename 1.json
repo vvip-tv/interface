@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0812",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0908",
     "lives": [
         {
             "name": "live",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0812",
+            "name": "⌛更新｜0918",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -59,6 +59,62 @@
             }
         },
         {
+            "key": "drpy_js_荐片",
+            "name": "🚁荐片[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/[磁]荐片.js"
+        },
+        {
+            "key": "drpy_js_贝乐虎",
+            "name": "🚁贝乐虎[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/[儿]贝乐虎.js"
+        },
+        {
+            "key": "drpy_js_兔小贝",
+            "name": "🚁兔小贝[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/[儿]兔小贝.js"
+        },
+        {
+            "key": "drpy_js_348电影网",
+            "name": "🚁348电影网[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/348电影网.js"
+        },
+        {
+            "key": "drpy_js_看影网",
+            "name": "🚁看影网[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/看影网.js"
+        },
+        {
+            "key": "drpy_js_天龙影院",
+            "name": "🚁天龙影院[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/天龙影院.js"
+        },
+        {
+            "key": "drpy_js_永乐视频",
+            "name": "🚁永乐视频[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/永乐视频.js"
+        },
+        {
+            "key": "drpy_js_rarbt",
+            "name": "🚁rarbt[js]",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/rarbt.js"
+        },
+        {
             "key": "豆丁",
             "name": "🚀豆丁｜APP[jar]",
             "type": 3,
@@ -66,11 +122,12 @@
             "api": "csp_AppGet",
             "ext": {
                 "url": "",
-                "site": "https://vip.123pan.cn/1848451100/zl/xfdd.txt",
-                "dataKey": "xasdasdqwertyuio",
-                "dataIv": "xasdasdqwertyuio",
+                "site": "http://45.66.157.77:9427/dd.txt",
+                "dataKey": "Xasdasd!123123dd",
+                "dataIv": "Xasdasd!123123dd",
                 "deviceId": "",
-                "version": ""
+                "version": "",
+                "ua": ""
             }
         },
         {
@@ -545,7 +602,7 @@
             }
         },
         {
-            "name": "QD4K",
+            "name": "巧计",
             "type": 1,
             "url": "https://zy.qiaoji8.com/xiafan.php?url=",
             "ext": {
@@ -906,6 +963,102 @@
     ],
     "rules": [
         {
+            "name": "量子非凡",
+            "hosts": [
+                "lz",
+                "vip.lz",
+                "v.cdnlz",
+                "hd.lz",
+                "ffzy",
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "索尼",
+            "hosts": [
+                "suonizy",
+                "qrssv.com"
+            ],
+            "regex": [
+                "15.1666",
+                "15.2666"
+            ]
+        },
+        {
+            "name": "乐视",
+            "hosts": [
+                "leshiyun"
+            ],
+            "regex": [
+                "15.92"
+            ]
+        },
+        {
+            "name": "优质",
+            "hosts": [
+                "yzzy",
+                "playback"
+            ],
+            "regex": [
+                "16.63",
+                "18.66",
+                "17.66",
+                "19.13"
+            ]
+        },
+        {
+            "name": "快看",
+            "hosts": [
+                "kuaikan",
+                "vip.kuaikan"
+            ],
+            "regex": [
+                "15.32",
+                "15.231",
+                "18.066"
+            ]
+        },
+        {
+            "name": "360",
+            "hosts": [
+                "lyhuicheng"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "开源棋牌",
+            "hosts": [
+                "askzycdn",
+                "jkunbf",
+                "bfikuncdn",
+                "bfaskcdn"
+            ],
+            "regex": [
+                "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "暴风",
+            "hosts": [
+                "bfengbf.com",
+                "bfzy",
+                "c1"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
             "name": "农民",
             "hosts": [
                 "toutiaovod.com"
@@ -933,6 +1086,32 @@
             ]
         },
         {
+            "name": "磁力",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "更多",
+                "请访问",
+                "example",
+                "社 區",
+                "x u u",
+                "直 播",
+                "更 新",
+                "社 区",
+                "有趣",
+                "有 趣",
+                "英皇体育",
+                "全中文AV在线",
+                "澳门皇冠赌场",
+                "哥哥快来",
+                "美女荷官",
+                "裸聊",
+                "新片首发",
+                "UUE29"
+            ]
+        },
+        {
             "name": "饭团点击",
             "hosts": [
                 "dadagui",
@@ -940,7 +1119,7 @@
                 "dadagui"
             ],
             "script": [
-                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+                "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
             ]
         },
         {
@@ -949,16 +1128,7 @@
                 "www.maolvys.com"
             ],
             "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-            ]
-        },
-        {
-            "name": "ofiii",
-            "hosts": [
-                "www.ofiii.com"
-            ],
-            "script": [
-                "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+                "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
             ]
         }
     ],
