@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0908",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0914",
     "lives": [
         {
             "name": "live",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0908",
+            "name": "⌛更新｜0914",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -35,18 +35,6 @@
             }
         },
         {
-            "key": "天天影视",
-            "name": "🚀天天｜APP[jar]",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://tt.ysdqjs.cn"
-            }
-        },
-        {
             "key": "浪酷影视",
             "name": "🚀浪酷｜APP[jar]",
             "type": 3,
@@ -59,11 +47,98 @@
             }
         },
         {
-            "key": "drpy_js_荐片",
-            "name": "🚁荐片[js]",
+            "key": "万能",
+            "name": "🚀万能丨APP[jar]",
             "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/[磁]荐片.js"
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://wnvod.cc",
+                "site": "",
+                "dataKey": "5uBvur6znNUmE3zb",
+                "dataIv": "5uBvur6znNUmE3zb",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "蔬菜",
+            "name": "🚀蔬菜丨APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://huohu.yihn.cc",
+                "site": "",
+                "dataKey": "huohushipingetap",
+                "dataIv": "huohushipingetap",
+                "deviceId": "",
+                "version": "140",
+                "ua": ""
+            }
+        },
+        {
+            "key": "狂人",
+            "name": "🚀狂人丨APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.zjkrmv.vip",
+                "site": "",
+                "dataKey": "vXeyuJFqTKqWUtWU",
+                "dataIv": "vXeyuJFqTKqWUtWU",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "布雷",
+            "name": "🚀布雷丨APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://cms.bl4k.cc",
+                "site": "",
+                "dataKey": "B7uaxcwdpX2dww82",
+                "dataIv": "B7uaxcwdpX2dww82",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "和友",
+            "name": "🚀和友｜APP[jar]",
+            "type": 3,
+            "api": "csp_AppSy",
+            "ext": {
+                "url": "",
+                "site": "http://qcb.sxtzg.com/api.txt",
+                "siteKey": "rectangleadsadxa",
+                "listKey": "gHSLmx3JQRasgztO",
+                "parsesKey": "gHSLmx3JQRasgztO"
+            }
+        },
+        {
+            "key": "荐片",
+            "name": "🚀荐片｜磁力[jar]",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "ext": "https://ij1men.slsw6.com"
+        },
+        {
+            "key": "80S",
+            "name": "🚀80S｜磁力[jar]",
+            "type": 3,
+            "api": "csp_BLSGod",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "drpy_js_贝乐虎",
@@ -113,22 +188,6 @@
             "type": 3,
             "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
             "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/rarbt.js"
-        },
-        {
-            "key": "豆丁",
-            "name": "🚀豆丁｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://45.66.157.77:9427/dd.txt",
-                "dataKey": "Xasdasd!123123dd",
-                "dataIv": "Xasdasd!123123dd",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
         },
         {
             "key": "灵虎",
@@ -204,20 +263,6 @@
             }
         },
         {
-            "key": "瓜萌",
-            "name": "🚁瓜萌｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.guahd.com",
-                "dataKey": "f2A7D4B9E8C16531",
-                "dataIv": "f2A7D4B9E8C16531",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "米兔",
             "name": "🚁米兔｜APP[jar]",
             "type": 3,
@@ -239,9 +284,9 @@
             "api": "csp_AppGet2",
             "ext": {
                 "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-                "dataKey": "Z98KXaLtO2wC1Pte",
-                "dataIv": "Z98KXaLtO2wC1Pte",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "dataKey": "da61247f5b662597",
+                "dataIv": "da61247f5b662597",
                 "deviceId": "",
                 "version": "120"
             }
@@ -261,20 +306,6 @@
             }
         },
         {
-            "key": "彼岸",
-            "name": "🚁彼岸｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "315"
-            }
-        },
-        {
             "key": "雨滴",
             "name": "🚁雨滴｜APP[jar]",
             "type": 3,
@@ -289,34 +320,6 @@
             }
         },
         {
-            "key": "小红",
-            "name": "🚁小红｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.xiaohys.com",
-                "dataKey": "ENonBHeVBoYZhVUV",
-                "dataIv": "ENonBHeVBoYZhVUV",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "166"
-            }
-        },
-        {
-            "key": "米兔",
-            "name": "🚁米兔｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://new.tkbot.fun",
-                "dataKey": "d032c12876bc6848",
-                "dataIv": "d032c12876bc6848",
-                "deviceId": "",
-                "version": "200"
-            }
-        },
-        {
             "key": "晴天",
             "name": "🚁晴天｜APP[jar]",
             "type": 3,
@@ -328,33 +331,6 @@
                 "dataIv": "sBxqXVF5pAHbGzrH",
                 "deviceId": "",
                 "version": "119"
-            }
-        },
-        {
-            "key": "星河",
-            "name": "🚁星河｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppSy",
-            "ext": {
-                "url": "http://192.140.161.171:2563",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "aassddwwxxllsx1x",
-                "key3": "aassddwwxxllsx1x"
-            }
-        },
-        {
-            "key": "若惜",
-            "name": "🚁若惜｜APP[jar]",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://110.40.59.188:9527",
-                "dataKey": "ebad3f1a58b13933",
-                "dataIv": "ebad3f1a58b13933",
-                "deviceId": "",
-                "version": ""
             }
         },
         {
@@ -445,16 +421,6 @@
             "name": "🚀零度｜影视[py]",
             "type": 3,
             "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/零度影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "追星影视",
-            "name": "🚀追星｜影视[py]",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/py/追星影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
