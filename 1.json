@@ -5,7 +5,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://188766.xyz/itv",
+            "url": "https://fy.188766.xyz/?ip=&json=true",
             "playerType": 2,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
