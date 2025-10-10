@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://xhdwc.tk/api/img.php",
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0914",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1010",
     "lives": [
         {
             "name": "live",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜0914",
+            "name": "⌛更新｜1010",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
