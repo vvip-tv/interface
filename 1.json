@@ -1,6 +1,6 @@
 {
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1024",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1029",
     "lives": [
         {
             "name": "live",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜1024",
+            "name": "⌛更新｜1029",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -110,7 +110,7 @@
         },
         {
             "key": "八天",
-            "name": "🚀八天丨APP[]jar",
+            "name": "🚀八天丨APP[jar]",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
