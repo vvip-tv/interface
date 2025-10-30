@@ -88,9 +88,6 @@ fi
 # 清理临时文件
 rm -f /tmp/new_init_method.smali
 
-# 创建输出目录
-mkdir -p jar
-
 # 重新打包
 echo "3. 重新打包..."
 java -jar apktool.jar b "$TEMP_DIR" -o "$OUTPUT_JAR" >/dev/null 2>&1

@@ -1,6 +1,6 @@
 {
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1029",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1030",
     "lives": [
         {
             "name": "live",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜1029",
+            "name": "⌛更新｜1030",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -44,6 +44,39 @@
             "filterable": 0,
             "ext": {
                 "url": "http://v.lkuys.cn"
+            }
+        },
+        {
+            "key": "苹果影视",
+            "name": "🚀苹果｜APP[jar]",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "爱看",
+            "name": "🚀爱看｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.appdm.akandm.com",
+                "dataKey": "uI1TkPJC8B46AyN3",
+                "dataIv": "uI1TkPJC8B46AyN3"
+            }
+        },
+        {
+            "key": "数字",
+            "name": "🚀数字｜APP[jar]",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://app1-0-0.87333.cc",
+                "dataKey": "VwsHxkCViDXEExWa",
+                "dataIv": "VwsHxkCViDXEExWa"
             }
         },
         {
