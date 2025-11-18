@@ -34,7 +34,7 @@ SMALI_FILE="$TEMP_DIR/smali/com/github/catvod/spider/Init.smali"
 # 创建新的 init 方法（移除包名检查，只调用 m4a）
 cat > /tmp/new_init_method.smali << 'EOF'
 .method public static init(Landroid/content/Context;)V
-    .locals 1
+    .locals 2
 
     :try_start_0
     invoke-static {}, Lcom/github/catvod/spider/Init;->get()Lcom/github/catvod/spider/Init;
@@ -49,14 +49,13 @@ cat > /tmp/new_init_method.smali << 'EOF'
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    goto :goto_0
+    return-void
 
     :catch_0
     move-exception v0
 
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    :goto_0
     return-void
 .end method
 EOF
