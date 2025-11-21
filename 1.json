@@ -1,6 +1,6 @@
 {
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1118",
+    "spider": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=1121",
     "lives": [
         {
             "name": "live",
@@ -15,7 +15,7 @@
     "sites": [
         {
             "key": "豆瓣推荐",
-            "name": "⌛更新｜1118",
+            "name": "⌛更新｜1121",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -59,11 +59,14 @@
             }
         },
         {
-            "key": "drpy_js_麦田影院",
-            "name": "🚀麦田影院[js]",
+            "key": "麦田影院",
+            "name": "🚀麦田｜APP[jar]",
             "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/source/麦田影院.js"
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/vvip-tv/interface/main/XBPQ/麦田影视.json"
         },
         {
             "key": "私人",
