@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Spider.jar Init 方法精简脚本
-# 移除包名验证，只保留 m4a() 调用
+# 移除包名验证和 m4a() 调用
 
 set -e
 
@@ -28,10 +28,10 @@ echo "1. 反编译..."
 java -jar apktool.jar d "$INPUT_JAR" -o "$TEMP_DIR" -f >/dev/null 2>&1
 
 # 修改 init 方法
-echo "2. 精简 init 方法（仅保留 m4a 调用）..."
+echo "2. 精简 init 方法（移除包名验证和 m4a 调用）..."
 SMALI_FILE="$TEMP_DIR/smali/com/github/catvod/spider/Init.smali"
 
-# 创建新的 init 方法（移除包名检查，只调用 m4a）
+# 创建新的 init 方法（移除包名检查和 m4a 调用）
 cat > /tmp/new_init_method.smali << 'EOF'
 .method public static init(Landroid/content/Context;)V
     .locals 2
@@ -44,8 +44,6 @@ cat > /tmp/new_init_method.smali << 'EOF'
     check-cast p0, Landroid/app/Application;
 
     iput-object p0, v0, Lcom/github/catvod/spider/Init;->c:Landroid/app/Application;
-
-    invoke-static {}, Lcom/github/catvod/spider/Init;->a()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
