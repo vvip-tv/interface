@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Spider.jar Init 方法精简脚本
-# 移除包名验证和 m4a() 调用
+# Spider.jar Init 方法修改脚本
+# 将 String packageName = context.getPackageName(); 修改为硬编码的包名
 
 set -e
 
@@ -27,63 +27,26 @@ echo "开始处理 $INPUT_JAR ..."
 echo "1. 反编译..."
 java -jar apktool.jar d "$INPUT_JAR" -o "$TEMP_DIR" -f >/dev/null 2>&1
 
-# 修改 init 方法
-echo "2. 精简 init 方法（移除包名验证和 m4a 调用）..."
+# 修改包名获取逻辑
+echo "2. 修改包名获取逻辑 (String packageName = \"com.fongmi.android.tv\")..."
 SMALI_FILE="$TEMP_DIR/smali/com/github/catvod/spider/Init.smali"
 
-# 创建新的 init 方法（移除包名检查和 m4a 调用）
-cat > /tmp/new_init_method.smali << 'EOF'
-.method public static init(Landroid/content/Context;)V
-    .locals 2
-
-    :try_start_0
-    invoke-static {}, Lcom/github/catvod/spider/Init;->get()Lcom/github/catvod/spider/Init;
-
-    move-result-object v0
-
-    check-cast p0, Landroid/app/Application;
-
-    iput-object p0, v0, Lcom/github/catvod/spider/Init;->c:Landroid/app/Application;
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-void
-
-    :catch_0
-    move-exception v0
-
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
-
-    return-void
-.end method
-EOF
-
-# 找到 init 方法的开始和结束行号
-START_LINE=$(grep -n "^\.method public static init(Landroid/content/Context;)V" "$SMALI_FILE" | cut -d: -f1)
-END_LINE=$(awk "NR>$START_LINE && /^\.end method/ {print NR; exit}" "$SMALI_FILE")
-
-if [ -z "$START_LINE" ] || [ -z "$END_LINE" ]; then
-    echo "错误: 无法找到 init 方法"
+if [ ! -f "$SMALI_FILE" ]; then
+    echo "错误: 无法找到 $SMALI_FILE"
     rm -rf "$TEMP_DIR"
     exit 1
 fi
 
-# 备份原文件
-cp "$SMALI_FILE" "$SMALI_FILE.bak"
+# 使用 perl 进行正则替换：将 getPackageName 调用替换为常量字符串，并注销随后的 move-result-object 指令
+# 支持多种 smali 格式（包括带 L 前缀或不带，点分隔或斜杠分隔等）
+perl -i -0777 -pe 's/invoke-virtual \{p0\}, [^;]+;->getPackageName\(\)Ljava\/lang\/String;(\s+)move-result-object (v\d+)/const-string $2, "com.fongmi.android.tv"$1nop/g' "$SMALI_FILE"
 
-# 替换 init 方法
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    # macOS
-    sed -i '' "${START_LINE},${END_LINE}d" "$SMALI_FILE"
-    sed -i '' "${START_LINE}r /tmp/new_init_method.smali" "$SMALI_FILE"
-else
-    # Linux
-    sed -i "${START_LINE},${END_LINE}d" "$SMALI_FILE"
-    sed -i "${START_LINE}r /tmp/new_init_method.smali" "$SMALI_FILE"
+# 验证是否修改成功
+if ! grep -q "com.fongmi.android.tv" "$SMALI_FILE"; then
+    echo "错误: 修改失败，未能在文件中找到目标字符串"
+    rm -rf "$TEMP_DIR"
+    exit 1
 fi
-
-# 清理临时文件
-rm -f /tmp/new_init_method.smali
 
 # 重新打包
 echo "3. 重新打包..."
