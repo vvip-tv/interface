@@ -5,7 +5,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://fy.188766.xyz/?ip=&json=true",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
