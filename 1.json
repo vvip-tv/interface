@@ -5,7 +5,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt",
+      "url": "http://117.72.219.168:1234",
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
