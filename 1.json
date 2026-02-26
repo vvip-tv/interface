@@ -5,7 +5,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "http://117.72.219.168:1234",
+      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/develop202/migu_video/main/interface.txt",
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
