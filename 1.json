@@ -1,6 +1,7 @@
 {
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-  "spider": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0302",
+  "spider": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0306",
+  "notice": "升级到1.6.0版本，流畅看直播",
   "lives": [
     {
       "name": "live",
@@ -13,7 +14,7 @@
   "sites": [
     {
       "key": "豆瓣推荐",
-      "name": "⌛更新｜0302",
+      "name": "⌛更新｜0306",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -33,20 +34,16 @@
       }
     },
     {
-      "key": "回响",
-      "name": "🚀回响｜APP[jar]",
+      "key": "三秋影视",
+      "name": "🚀三秋｜APP[jar]",
       "type": 3,
-      "api": "csp_AppNox",
-      "ext": {
-        "url": "http://110.42.37.69:8080",
-        "header": {
-          "content-type": "application/json",
-          "x-app-signature": "EB:19:FD:A7:8F:67:99:CD:6C:F0:6F:A4:72:3F:7A:C7:E9:2E:95:79:6F:5B:60:EA:CD:D8:05:CF:3E:06:D9:71",
-          "x-app-package": "com.recall.app",
-          "x-app-version-code": "22",
-          "x-app-version-name": "2.2.0"
-        }
-      }
+      "api": "csp_App3Q"
+    },
+    {
+      "key": "坚果影视",
+      "name": "🚀坚果｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppJg"
     },
     {
       "key": "火猫",
