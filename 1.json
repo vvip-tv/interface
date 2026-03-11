@@ -1,6 +1,6 @@
 {
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-  "spider": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0306",
+  "spider": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/jar/spider.jar?t=0311",
   "notice": "升级到1.6.0版本，流畅看直播",
   "lives": [
     {
@@ -14,7 +14,7 @@
   "sites": [
     {
       "key": "豆瓣推荐",
-      "name": "⌛更新｜0306",
+      "name": "⌛更新｜0311",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -46,6 +46,130 @@
       "api": "csp_AppJg"
     },
     {
+      "key": "闪影",
+      "name": "🚀闪影｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+    },
+    {
+      "key": "段友",
+      "name": "🚀段友｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://shangjihuoke.com",
+        "dataKey": "8E2DC386FD452D05",
+        "dataIv": "8E2DC386FD452D05"
+      }
+    },
+    {
+      "key": "奴娜",
+      "name": "🚀奴娜丨APP[jar]",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.nntv.in/api.php/v1.vod"
+    },
+    {
+      "key": "云播",
+      "name": "🚀云播｜APP[jar]",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppFox",
+      "ext": "http://app.hktvyb.cc"
+    },
+    {
+      "key": "老鹰",
+      "name": "🚀老鹰｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt",
+        "dataKey": "zxPtEUDGVllIUhDB",
+        "dataIv": "zxPtEUDGVllIUhDB",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "金牌",
+      "name": "🚀金牌｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://qj3.ggtvb.cc",
+        "dataKey": "eecbio48dsq13kkk",
+        "dataIv": "eecbio48dsq13kkk",
+        "search": "searchList4",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "恋鱼",
+      "name": "🚀恋鱼｜APP[jar]",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppFox",
+      "ext": {
+        "host": "http://103.117.137.33:2443",
+        "ver": 2
+      }
+    },
+    {
+      "key": "秒看",
+      "name": "🚀秒看｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+      }
+    },
+    {
+      "key": "七壹",
+      "name": "🚀七壹｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://qiyiys.cc",
+        "dataKey": "45452893929B40D9",
+        "dataIv": "45452893929B40D9"
+      }
+    },
+    {
+      "key": "黑猫",
+      "name": "🚀黑猫｜APP[jar]",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "http://app1-0-0.87333.cc",
+        "dataKey": "VwsHxkCViDXEExWa",
+        "dataIv": "VwsHxkCViDXEExWa"
+      }
+    },
+    {
       "key": "火猫",
       "name": "🚀火猫｜APP[jar]",
       "type": 3,
@@ -65,11 +189,11 @@
       "key": "小羊",
       "name": "🚀小羊｜APP[jar]",
       "type": 3,
-      "api": "csp_AppGet",
+      "api": "csp_AppQi",
       "ext": {
-        "site": "https://xy4k.com/url.txt",
-        "dataKey": "7SDWjknU34zqFbVr",
-        "dataIv": "7SDWjknU34zqFbVr"
+        "url": "https://qjappcms410.xy4k.com",
+        "dataKey": "mC6kG4mI1uM8tS4o",
+        "dataIv": "mC6kG4mI1uM8tS4o"
       }
     },
     {
@@ -120,6 +244,55 @@
       }
     },
     {
+      "key": "农民影视",
+      "name": "🚀农民｜影视[jar]",
+      "type": 3,
+      "api": "csp_Wwys",
+      "ext": "https://vip.wwgz.cn:5200"
+    },
+    {
+      "key": "骚火影视",
+      "name": "🚀骚火｜影视[jar]",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "ext": "https://shdy5.us"
+    },
+    {
+      "key": "小镇影视",
+      "name": "🚀小镇｜影视[jar]",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/XBPQ/小镇影视.json"
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🚀瓜子｜影视[jar]",
+      "type": 3,
+      "api": "csp_Gz360"
+    },
+    {
+      "key": "饺子影视",
+      "name": "🚀饺子｜影视[jar]",
+      "type": 3,
+      "api": "csp_Jiaozi"
+    },
+    {
+      "key": "云播影视",
+      "name": "🚀云播｜影视[jar]",
+      "type": 3,
+      "api": "csp_Tvyb",
+      "ext": "http://www.tvyb03.com"
+    },
+    {
+      "key": "爱看机器人",
+      "name": "🚀爱看｜影视[jar]",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "金牌影视",
       "name": "🚀金牌｜影视[jar]",
       "type": 3,
@@ -162,6 +335,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "采集之王",
+      "name": "🚀采集｜合集[js]",
+      "type": 3,
+      "api": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/lib/drpy2.min.js",
+      "ext": "https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/js/采集之王.js?type=url&params=https://gh.llkk.cc/https://raw.githubusercontent.com/vvip-tv/interface/main/JSON/采集静态.json$1$1"
     },
     {
       "key": "drpy_js_贝乐虎",
