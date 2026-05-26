@@ -41,6 +41,11 @@ fi
 # 支持多种 smali 格式（包括带 L 前缀或不带，点分隔或斜杠分隔等）
 perl -i -0777 -pe 's/invoke-virtual \{p0\}, [^;]+;->getPackageName\(\)Ljava\/lang\/String;(\s+)move-result-object (v\d+)/const-string $2, "com.fongmi.android.tv"$1nop/g' "$SMALI_FILE"
 
+# 应用名：移除 getApplicationInfo/getApplicationLabel/toString 调用链，直接设置 v7 = "影视"
+# getApplicationInfo 在手机上会抛 NameNotFoundException，必须整段移除
+echo "3. 修改应用名 (String appName = \"影视\")..."
+perl -i -0777 -pe 's/invoke-virtual \{v1, v0, v2\}, Landroid\/content\/pm\/PackageManager;->getApplicationInfo\(Ljava\/lang\/String;I\)Landroid\/content\/pm\/ApplicationInfo;.+?move-result-object v7/nop\n\n    const-string v7, "影视"/gs' "$SMALI_FILE"
+
 # 验证是否修改成功
 if ! grep -q "com.fongmi.android.tv" "$SMALI_FILE"; then
     echo "错误: 修改失败，未能在文件中找到目标字符串"
@@ -49,11 +54,11 @@ if ! grep -q "com.fongmi.android.tv" "$SMALI_FILE"; then
 fi
 
 # 重新打包
-echo "3. 重新打包..."
+echo "4. 重新打包..."
 java -jar apktool.jar b "$TEMP_DIR" -o "$OUTPUT_JAR" >/dev/null 2>&1
 
 # 清理临时文件
-echo "4. 清理临时文件..."
+echo "5. 清理临时文件..."
 rm -rf "$TEMP_DIR"
 
 echo "完成! 输出文件: $OUTPUT_JAR"
